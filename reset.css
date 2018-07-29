@@ -1,0 +1,194 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+body {
+	line-height: 1;}
+ol, ul {
+	list-style: none;}
+blockquote, q {
+	quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;}
+
+/* --GENERAL-- */
+
+@font-face {
+	font-family: bebas;
+	src: url("../fonts/BebasNeue.otf");
+}
+body {
+	font-family: Raleway;
+}
+h5 {
+	font-size: 0.8em;
+	font-weight: 200;
+}
+a {
+	text-decoration: none;
+	font-family: Montserrat;
+	color: #000;
+}
+section {
+	display: flex;
+    justify-content: center;
+	position: relative;
+	width: 100%;
+	padding: 50px 0px;
+}
+footer {
+	position: fixed;
+    background: #191919;
+    width: 60%;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding-top: 100px;
+}
+nav {
+	position: absolute;
+	top: 38%;
+}
+.container {
+	display: flex;
+    flex-direction: column;
+	position: relative;
+	max-width: 900px;
+	width: 92%;
+	z-index: 2;
+}
+.section-title {
+	position: relative;
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+.section-title h3 {
+	position: relative;
+	float: left;
+	padding: 14px 30px;
+	color: #000000;
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: bold;
+	background: #FFC815;
+}
+.section-title h3:before {
+	content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: #0000 #FFC815 #0000 #0000;
+}
+.section-title h2 {
+	float: left;
+    width: 100%;
+    position: relative;
+    font-size: 53px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #191919;
+    text-align: left;
+    font-family: Montserrat;
+}
+.title-separator {
+	float: left;
+    width: 180px;
+    height: 2px;
+    position: relative;
+    margin-top: 10px;
+    background: #FFC815;
+}
+.title-separator:before {
+	content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background: #FFC815;
+}
+.custom-nav a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #ffffff;
+	line-height: 40px;
+	font-size: 18px;
+	background: #FFC815;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+}
+.custom-nav a:hover {
+	background: #ffffff82;
+	color: #292929;
+}
+.respimg {
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #000000;
+}
+.section-separator {
+	float: left;
+	height: 2px;
+	width: 100%;
+	margin: 20px 0;
+	position: relative;
+}
+.section-separator:before {
+	content: '';
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background: #ccc;
+    margin-top: -1px;
+}
+.height-emu {
+	float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    height: 350px;
+}
+.clearfix {
+	clear: both;
+}

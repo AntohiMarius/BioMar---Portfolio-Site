@@ -1,0 +1,130 @@
+/* --FIXED-COLUMN-- */
+.scroll-image-bg {
+	background-image: url("../img/Contact Image.png");
+}
+/* --CONTACT-- */
+.contact {
+	float: right;
+    width: 60%;
+    position: relative;
+    background: #fff;
+    padding: 150px 0 100px;
+    z-index: 4;
+}
+
+/* --INTRO-- */
+.text-title {
+	    float: left;
+    width: 100%;
+    position: relative;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #191919;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.intro p {
+	text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-family: Lato;
+    text-align: justify;
+}
+
+/* --CONTACT INFO-- */
+.contact-info {
+	float: left;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+}
+.contact-info ul li {
+	float: left;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-info ul li a {
+	font-size: 14px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding-right: 20px;
+   	transition: all 300ms linear;
+   	color: #000;
+}
+.contact-info ul li a:hover {
+	opacity: 0.6;
+}
+.contact-info ul li a svg {
+	color: #FFC815;
+	padding-right: 5px;
+	font-size: 14px;
+}
+
+/* --CONTACT FORM-- */
+.contact-form {
+	float: left;
+    max-width: 600px;
+    padding-top: 30px;
+}
+input.name, input.email, textarea {
+	color: #000;
+    font-size: 12px;
+    padding: 15px 0;
+    width: 100%;
+    padding-left: 10px;
+    background: none;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+}
+textarea {
+	height: 170px;
+    resize: none;
+}
+input[type="submit"] {
+	background: #FFC815;
+	border: none;
+    padding: 14px 20px;
+    line-height: 14px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #000;
+    float: left;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+	background: #292929;
+    color: #fff;
+}
+/* --SUBNAV-MENU-- */
+.colorcontact {
+    color: #FFC815;
+}
+
+/* --RESPONSIVE-- */
+@media all and (max-width: 1036px) {
+	/* --CONTACT-- */
+	.contact {
+		float: left;
+		width: 100%;
+		padding: 70px 0;
+	}
+}
+@media all and (max-width: 756px) {
+	/* --SECTION-TITLE-- */
+	.section-title h2 {
+		font-size: 40px;
+	}
+}
+@media all and (max-width: 540px) {
+	/* --SECTION-TITLE-- */
+	.text-title {
+		font-size: 18px;
+	}
+}
